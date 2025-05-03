@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  canvas {
+    margin-bottom: 50;
+    display: block;
+  }
+  
+  #respect-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #video-container {
+    display: none; 
+    position: absolute;
+    top: 18%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    background-color: #cc1534;
+    border-radius: 20px;
+    padding: 5px;
+    z-index: 999;
+    backdrop-filter: blur(4px); /* Videodan çıkan beyaz ekran sorunu çözümü */
+  }
+
+  #respect-video {
+    width: 440px;
+    height: 230px;
+  }
